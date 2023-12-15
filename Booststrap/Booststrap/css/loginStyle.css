@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+html, body, wrapper{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    padding: 0 24px;
+    background-image: url("./imagenes/polygon-scatter-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    animation: rotate 6s infinite alternate linear;
+}
+.Contenedor{
+    position: relative;
+    width: 50%;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: white;
+    text-align: center;
+}
+.Contenedor > h2{
+    font-weight: normal;
+    margin: 0 0 12px;
+}
+
+.Contenedor > h3{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #a5b8cf;
+}
+.form-contacto{
+    width: 100%;
+    display: grid;
+    gap: 15px;
+}
+.form-contacto > input, .form-contacto >button{
+    width: 70%;
+    height: 50px;
+}
+.form-contacto > input{
+    border: 2px solid #ebebeb;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+    outline: none;
+}
+.form-contacto > input:hover{
+    border: 2px solid #216ce7;
+}
+.form-contacto > textarea{
+    width: 70%;
+    height: 50px;
+}
+
+.form-contacto > textarea{
+    border: 2px solid #ebebeb;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+    outline: none;
+}
+.form-contacto > textarea:hover{
+    border: 2px solid #216ce7;
+}
+
+.form-contacto > button{
+    cursor: pointer;
+    width: 100%;
+    padding: 4 16px;
+    border-radius: 1.25rem;
+    background: #216ce7;
+    color: white;
+    border: 0;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    outline: none;
+    transition: all 0.375s;
+}
+.form-contacto > button:hover{
+    background: #10449a;
+}
+.form-contacto > a{
+    color: #216ce7;
+    font-size: 0.9rem;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 3px;
+    transition: all 0.375s;
+}
+.login-form > a:hover{
+    color: #10449a;
+}
